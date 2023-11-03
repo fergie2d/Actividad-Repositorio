@@ -1,0 +1,126 @@
+body{
+    font-family: Georgia, helvetica;
+	background:#c2668c;
+}
+
+.card{
+    list-style: none;
+    background:#c4d7d8;
+    margin: auto;
+
+}
+
+p{ 
+    color:rgb(218, 121, 121);
+    font-family:'Times New Roman';
+}
+h5{
+    color:black;
+font-family: Georgia;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background:#f3f0f5;
+	width: 100%;
+	max-width: 1000px;
+	margin: 30px auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:black;
+	padding: 20px;
+	font-size: 20px;
+	display: block;
+	font-family: 'Open sans';
+}
+
+.menu li{
+	position: relative;
+	display: inline-block;
+	text-align:left;
+}
+
+.menu li a:hover{
+	background:#8e59ad;
+	transition: all .3s;
+}
+
+
+.submenu{
+	position: absolute;
+	background: #363535;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	color: rgb(194, 86, 158);
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+.submenu1{
+	position: absolute;
+	background: #333333;
+	width: 150%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.submenu2{
+	position: absolute;
+	background: #333333;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	width: 100%;
+	padding: 15px;
+	font-size: 14px;
+	color: rgb(199, 91, 158);
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
